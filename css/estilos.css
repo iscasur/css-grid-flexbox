@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #888;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 1.5em;
+}
+
+.card__header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin: 0 0 1em 0;
+}
+
+.card__header-image {
+    margin: 0 1.5em 0 0;
+}
+
+.card__header-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card__header-title h1 {
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.card__header-title p {
+    margin: 0;
+}
+
+.card__content figure {
+    margin: 0 -1.5em;
+}
+
+.card__content figure img {
+    width: 100%;
+}
+
+.card__content p {
+   line-height: 1.5em; 
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__footer-actions button {
+    border: 0;
+    background: transparent;
+    color: #6b46ff;
+    font-size: 1.2em;
+}
+
+.card__footer-social {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    color: #ccc;
+    width: 60px;
+}
