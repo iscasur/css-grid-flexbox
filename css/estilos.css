@@ -81,3 +81,9 @@ body {
     color: #ccc;
     width: 60px;
 }
+
+@media screen and (max-width: 375px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
